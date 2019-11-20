@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: zfor
+# key: zfor
+# --
+for (let ${1:index} = 0; $1 < ${2:array}.length; $1++) {
+  const ${3:element} = $2[$1];
+  $4
+}
+$0
