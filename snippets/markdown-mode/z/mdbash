@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: mdbash
+# key: mdbash
+# --
+
+\`\`\`bash
+$1
+\`\`\`
+
+$2

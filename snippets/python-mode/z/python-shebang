@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: python-shebang
+# key: pythonsb
+# --
+
+#!/Users/tomtsang/.virtualenvs/quant-py3/bin/python
+# -*- coding: utf-8 -*-
+# Author: zengyunlong
+
+$1

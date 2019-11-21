@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bash
+# key: bash
+# --
+#+BEGIN_SRC bash -l 7 :hl_lines 8
+$0
+#+END_SRC

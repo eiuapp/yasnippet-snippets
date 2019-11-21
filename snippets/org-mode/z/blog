@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: blog
+# key: blog
+# --
+
+*** $3                                                    :$4:
+:PROPERTIES:
+:EXPORT_DATE:  $1
+:EXPORT_FILE_NAME:  $2
+:END:
+
+$0

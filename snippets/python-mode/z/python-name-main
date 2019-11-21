@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: python-name-main
+# key: pythonnamemain
+# --
+
+print("this is before if __name__:%s"%__name__)
+if __name__=='__main__':
+    print("this is after if __name__:%s"%__name__)
+    $1

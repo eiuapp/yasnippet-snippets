@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: hugo-blog-header
+# key: h
+# --
+#+HUGO_BASE_DIR: ../../
+#+TITLE: $1
+#+DATE: `(format-time-string "%Y-%m-%d")`
+#+STARTUP: content
+#+author:
+#+hugo_custom_front_matter: :author ""
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_DRAFT: false
+
+* Post
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: post
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+** $3                                                            :@$2:$2:
+$4
+
+* Footnotes
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# eval: (add-hook 'after-save-hook #'org-hugo-export-wim-to-md :append :local)
+# eval: (auto-fill-mode 1)
+# End:

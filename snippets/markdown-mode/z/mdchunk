@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: mdchunk
+# key: mdchunk
+# --
+\`\`\`$1
+$2
+\`\`\`
+
+$3

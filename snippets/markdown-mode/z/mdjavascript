@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: mdjavascript
+# key: mdjavascript
+# --
+
+```javascript
+$1
+```
+
+$2
