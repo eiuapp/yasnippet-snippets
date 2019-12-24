@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: orghead
+# key:  orgh
+# --
+#+title: $1
+#+index: $2
+
+[[file:../index.org][{Back to site's index}]]
+
+$0

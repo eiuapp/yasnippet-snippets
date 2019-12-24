@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: json
+# key: json
+# --
+#+begin_src json
+$1
+#+end_src
+$0
